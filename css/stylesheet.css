@@ -1,0 +1,134 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+/* CSS Document */
+
+body{
+	margin: 0px;
+	width: 100vw;
+	height: 100vh;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	background-color: hsl(217, 54%, 11%);
+	font-family: 'Outfit';
+}
+
+
+#card{
+	width: 350px;
+	height: 600px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	flex-direction: column;
+	background-color: hsl(216, 50%, 16%);
+	border-radius: 10px;
+}
+
+#card > div {
+	width: 300px;
+}
+
+#main-pic{
+	height: 300px;
+	background: url("../images/image-equilibrium.jpg") no-repeat center; 
+	background-size: cover;
+	border-radius: 5px;
+	margin-top: 25px;
+}
+
+#main-pic-rollover{
+	height:inherit;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 5px;
+}
+
+#main-pic-rollover:hover{
+	cursor:pointer;
+	background: hsla(178, 100%, 50%,0.5) url("../images/icon-view.svg") no-repeat center;
+}
+
+#ntf-name{
+	color:white;
+	margin-top:25px;
+	font-size: 22px;
+	font-weight: 600;
+}
+
+#ntf-name:hover{
+	color:hsl(178, 100%, 50%);
+	cursor:pointer;
+}
+
+#ntf-description{
+	color:hsl(215, 51%, 70%);
+	margin-top:20px;
+	font-size: 18px;
+	font-weight: 300;
+}
+
+#ntf-values{
+	display: flex;
+	flex-direction: row;
+	margin-top:20px;
+}
+
+#ntf-values > div{
+	width: 150px;
+	font-size: 16px;
+	display:flex;
+}
+
+#value{
+	color:hsl(178, 100%, 50%);
+	font-weight: 600;
+	justify-content: flex-start;
+}
+
+#time-left{
+	color:hsl(215, 51%, 70%);
+	font-weight: 300;
+	justify-content: flex-end;
+}
+
+#author{
+	height: 60px;
+	display: flex;
+	align-items: center;
+	margin-top: 25px;
+	border-top: solid 1px hsl(215, 32%, 27%);
+	font-size: 16px;
+}
+
+#author > div{
+	height: 30px;
+	line-height: 30px;
+	text-align: left;
+}
+
+#author-pic{
+	width: 30px;
+	background: url("../images/image-avatar.png") no-repeat;
+	background-size: cover;
+	border-radius: 15px;
+	border: solid 1px white;
+}
+
+#author-creation{
+	padding-left: 15px;
+	color:hsl(215, 51%, 70%);
+}
+
+#author-name{
+	color:white;
+}
+
+#author-name:hover{
+	color:hsl(178, 100%, 50%);
+	cursor:pointer;
+}
+
+
+
+
