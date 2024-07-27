@@ -2,11 +2,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
 /* CSS Document */
 
-body{
+* {
+	box-sizing: border-box;
+}
+
+body {
 	margin: 0px;
 	width: 100vw;
 	height: 100vh;
-	display:flex;
+	display: flex;
 	align-items: center;
 	justify-content: center;
 	background-color: hsl(217, 54%, 11%);
@@ -14,105 +18,115 @@ body{
 }
 
 
-main{
+main {
 	width: 350px;
-	height: 600px;
+	height: 596px;
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
 	flex-direction: column;
 	background-color: hsl(216, 50%, 16%);
-	border-radius: 10px;
+	border-radius: 15px;
 }
 
-h1{
-	margin:0px;
+h1 {
+	margin: 0px;
 	padding: 0px;
 	font-size: 22px;
 	font-weight: 600;
 }
 
-#card > div {
-	width: 300px;
+main>div {
+	width: 302px;
 }
 
-#main-pic{
-	height: 300px;
-	background: url("../images/image-equilibrium.jpg") no-repeat center; 
+#main-pic {
+	height: 302px;
+	background: url("../images/image-equilibrium.jpg") no-repeat center;
 	background-size: cover;
-	border-radius: 5px;
-	margin-top: 25px;
+	border-radius: 8px;
+	margin-top: 24px;
 }
 
-#main-pic-rollover{
-	height:inherit;
+#main-pic-rollover {
+	height: inherit;
 	background-repeat: no-repeat;
 	background-position: center;
-	border-radius: 5px;
+	border-radius: 8px;
 }
 
-#main-pic-rollover:hover{
-	cursor:pointer;
-	background: hsla(178, 100%, 50%,0.5) url("../images/icon-view.svg") no-repeat center;
+#main-pic-rollover:hover {
+	cursor: pointer;
+	background: hsla(178, 100%, 50%, 0.5) url("../images/icon-view.svg") no-repeat center;
 }
 
-#ntf-name{
-	color:white;
-	margin-top:25px;
+#ntf-name {
+	color: white;
+	margin-top: 24px;
 }
 
-#ntf-name:hover{
-	color:hsl(178, 100%, 50%);
-	cursor:pointer;
+#ntf-name:hover {
+	color: hsl(178, 100%, 50%);
+	cursor: pointer;
 }
 
-#ntf-description{
-	color:hsl(215, 51%, 70%);
-	margin-top:20px;
+#ntf-description {
+	height: 52px;
+	color: hsl(215, 51%, 70%);
+	margin-top: 16px;
 	font-size: 18px;
 	font-weight: 300;
+	line-height: 26px;
 }
 
-#ntf-values{
+#ntf-values {
 	display: flex;
 	flex-direction: row;
-	margin-top:20px;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 24px;
 }
 
-#ntf-values > div{
+#ntf-values>div {
 	width: 150px;
+	height: 20px;
 	font-size: 16px;
-	display:flex;
+	display: flex;
 }
 
-#value{
-	color:hsl(178, 100%, 50%);
+#value {
+	color: hsl(178, 100%, 50%);
 	font-weight: 600;
 	justify-content: flex-start;
 }
 
-#time-left{
-	color:hsl(215, 51%, 70%);
+#time-left {
+	color: hsl(215, 51%, 70%);
 	font-weight: 300;
 	justify-content: flex-end;
 }
 
-#author{
-	height: 60px;
+.valueText{
+	margin-left: 7px;
+}
+
+#author {
+	height: 50px;
 	display: flex;
 	align-items: center;
-	margin-top: 25px;
+	margin-top: 24px;
+	padding-top: 16px;
 	border-top: solid 1px hsl(215, 32%, 27%);
 	font-size: 16px;
 }
 
-#author > div{
+#author>div {
 	height: 30px;
 	line-height: 30px;
 	text-align: left;
 }
 
-#author-pic{
+#author-pic {
 	width: 30px;
 	background: url("../images/image-avatar.png") no-repeat;
 	background-size: cover;
@@ -120,20 +134,17 @@ h1{
 	border: solid 1px white;
 }
 
-#author-creation{
-	padding-left: 15px;
-	color:hsl(215, 51%, 70%);
+#author-creation {
+	padding-left: 16px;
+	color: hsl(215, 51%, 70%);
 }
 
-#author-name{
-	color:white;
+#author-name {
+	color: white;
+	padding-left: 5px;
 }
 
-#author-name:hover{
-	color:hsl(178, 100%, 50%);
-	cursor:pointer;
+#author-name:hover {
+	color: hsl(178, 100%, 50%);
+	cursor: pointer;
 }
-
-
-
-
