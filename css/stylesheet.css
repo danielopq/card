@@ -106,7 +106,7 @@ main>div {
 	justify-content: flex-end;
 }
 
-.valueText{
+.valueText {
 	margin-left: 7px;
 }
 
@@ -127,10 +127,10 @@ main>div {
 }
 
 #author-pic {
-	width: 30px;
+	width: 32px;
 	background: url("../images/image-avatar.png") no-repeat;
 	background-size: cover;
-	border-radius: 15px;
+	border-radius: 16px;
 	border: solid 1px white;
 }
 
@@ -147,4 +147,46 @@ main>div {
 #author-name:hover {
 	color: hsl(178, 100%, 50%);
 	cursor: pointer;
+}
+
+
+/*############################## MOBILE VERSION ##############################*/
+
+@media screen and (max-width:480px) {
+	body {
+		align-items: flex-start;
+	}
+
+
+	main {
+		width: 327px;
+		height: 543px;
+	}
+
+	main>div {
+		width: 278px;
+	}
+
+	#main-pic {
+		height: 278px;
+	}
+
+	#ntf-description {
+		margin-top: 12px;
+	}
+
+	#ntf-values {
+		margin-top: 16px;
+	}
+
+	#ntf-values>div {
+		width: 139px;
+		height: 19px;
+		font-size: 15px;
+	}
+
+	#author {
+		margin-top: 16px;
+		font-size: 15px;
+	}
 }
