@@ -21,7 +21,7 @@ This website is optimized for both desktop and mobile users (480px). The element
 
 ### Links
 
-- Live Site URL: [https://danielmartinez.co.uk/card]
+- Live Site URL: [https://danielopq.github.io/card/]
 
 ## My process
 
