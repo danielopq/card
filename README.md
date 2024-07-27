@@ -13,7 +13,7 @@
 
 ## Overview
 
-Exercise for a Chanel products website. The elements have been built according to the images provided. The website is built with HTML and CSS.
+This website is optimized for both desktop and mobile users (480px). The elements are arranged according to the provided images. It is built using HTML and CSS.
 
 ### Screenshot
 
@@ -25,29 +25,20 @@ Exercise for a Chanel products website. The elements have been built according t
 
 ## My process
 
-I created the website entirely for the desktop version. No mobile version needed
+I created the website entirely for the desktop version. Once all the elements were in place and met the design requirements, I adapted it for the mobile version using a CSS media query.
 
 ### Built with
 
 - Adobe dreamweaver
-- Adobe photoshop (Measuring distance, obtaining colors)
+- Adobe photoshop
+- Figma
 - Git
-- HTML5
-- CSS
-
-### Useful resources
-
-- [https://www.w3schools.com] - I constantly use this website while I am building website with CSS.
+- Semantic HTML5 markup
+- CSS custom properties
 
 ## Author
 
-My name is Daniel Martinez. I am eager to be given a role as a junior position where I can gain further knowledge and experience.
-
-I demonstrated strong academic performance in database design and management (SQL), object-oriented programming (JAVA) and website development (HTML, PHP, JavaScript, CSS). The courses I have completed have given me a solid knowledge in the software development area and I have a proven ability to learn challenging concepts quickly.
-
-In addition to this I possess a Bachelor's degree in visual arts and communication that has provided me advanced design skills. I am also able to work within tight deadlines and to develop multiple projects simultaneously; therefore I believe I would be a very strong junior asset to any organization.
-
-If you agree that I would make a valuable addition to your team, please feel free to call me at 07 778 639 835 or email me at danielopq@gmail.com. 
+I am a focused and dedicated professional with a strong educational foundation and hands-on experience in programming and web development. My expertise in PHP, SQL, JavaScript, HTML, CSS, JAVA and other modern web technologies enables me to build engaging, efficient, and visually appealing websites that meet both user needs and business goals.
 
 - linkedin - [www.linkedin.com/in/danielmartinezduque]
 
